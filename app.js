@@ -7,9 +7,9 @@ app.get('/', (req, res) => {
   for (var i=1 ; i < 51 ; i++) {
 
     if (i%2===0){
-      x ="<p>"+ i +" Soy Par!<p> ";
+      x ="<p>"+ i +" Soy Par!</p> ";
     }else{
-      x ="<p>"+ i +" Soy Impar!<p> ";
+      x ="<p>"+ i +" Soy Impar!</p> ";
     }
     data.push(x);
 
